@@ -4,7 +4,7 @@ data class Library (
     val name: String,
     val books: List<Book>
 ) {
-    // 1ºmetodo
+    // M1
     fun hasBook(isbn: String): Boolean {
         for (book in books) {
             if (book.isbn == isbn) {
@@ -14,7 +14,7 @@ data class Library (
         return false
     }
 
-    // 2ºmetodo
+    // M2
     fun hasAuthor(authorNif: String): Boolean {
         for (book in books) {
             if (book.hasAuthor(authorNif)) { //Bucle interno para revisar los autores del libro
