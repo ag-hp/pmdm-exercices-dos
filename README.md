@@ -1,5 +1,8 @@
 <h1>EJERCICIOS: Clases de datos, objetos y scripts</h1> 
 
+> [!NOTE]
+> Me faltan ejercicios por acabar.
+
     Crea la siguiente estructura de data classes con sus métodos
 
         Book:
